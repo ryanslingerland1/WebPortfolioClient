@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/WebPortfolioClient/static/css/main.320d61d1.chunk.css",
+    "main.js": "/WebPortfolioClient/static/js/main.26cb403d.chunk.js",
+    "main.js.map": "/WebPortfolioClient/static/js/main.26cb403d.chunk.js.map",
+    "runtime~main.js": "/WebPortfolioClient/static/js/runtime~main.7b3382f9.js",
+    "runtime~main.js.map": "/WebPortfolioClient/static/js/runtime~main.7b3382f9.js.map",
+    "static/js/2.cd36046f.chunk.js": "/WebPortfolioClient/static/js/2.cd36046f.chunk.js",
+    "static/js/2.cd36046f.chunk.js.map": "/WebPortfolioClient/static/js/2.cd36046f.chunk.js.map",
+    "static/js/3.31c88699.chunk.js": "/WebPortfolioClient/static/js/3.31c88699.chunk.js",
+    "static/js/3.31c88699.chunk.js.map": "/WebPortfolioClient/static/js/3.31c88699.chunk.js.map",
+    "index.html": "/WebPortfolioClient/index.html",
+    "precache-manifest.d749d05055b9f6ed7a4875416a5585a3.js": "/WebPortfolioClient/precache-manifest.d749d05055b9f6ed7a4875416a5585a3.js",
+    "service-worker.js": "/WebPortfolioClient/service-worker.js",
+    "static/css/main.320d61d1.chunk.css.map": "/WebPortfolioClient/static/css/main.320d61d1.chunk.css.map",
+    "static/media/Portrait-23.png": "/WebPortfolioClient/static/media/Portrait-23.ee87f9c0.png"
+  }
+}
