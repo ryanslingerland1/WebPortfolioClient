@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import ryan from './Portraits/Portrait-23.png';
 
-import blogList from '/Users/ryanslingerland/Documents/WebPortfolioClientOnly/src/json/blogs.json';
-import devList from './json/dev.json';
-import gallery from './json/gallery.json';
-import videoList from './json/videos.json';
+import blogList from '/Users/ryanslingerland/Documents/Brock/Github/WebPortfolioClient/src/json/blogs.json';
+import devList from '/Users/ryanslingerland/Documents/Brock/Github/WebPortfolioClient/src/json/dev.json';
+import gallery from '/Users/ryanslingerland/Documents/Brock/Github/WebPortfolioClient/src/json/gallery.json';
+import videoList from '/Users/ryanslingerland/Documents/Brock/Github/WebPortfolioClient/src/json/videos.json';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
