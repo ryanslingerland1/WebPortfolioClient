@@ -191,9 +191,13 @@ nav a:hover {
 
 .paragraph-1 {
   font-family: "Brawler", serif;
-  width: 40%;
-  padding: 1rem;
-  margin-left: 15rem;
+  width: 100%;
+  margin-top: -2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .paragraph-2 {
@@ -420,7 +424,7 @@ nav a:hover {
 
 .video-content h3, .video-content p, .video-content iframe {
   margin-left: 13rem;
-
+  color: #fff;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -442,7 +446,7 @@ nav a:hover {
 .video-content {
   width: 100%;
   
-  background-color: #222;
+  background-color: #474646;
   border-radius: 5px;
 }
 
@@ -584,30 +588,25 @@ nav a:hover {
 
 
 
-.gallery-content h3, .gallery-content p, .gallery-content iframe {
-  margin-left: 13rem;
-
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.gallery-content h3 {
-  padding-top: 3rem;
-  font-size: 1.5rem;
-}
-.gallery-content p {
-  padding-bottom: 2rem;
-}
-
-.gallery-content iframe {
-  padding-bottom: 5rem;
-}
-
 .gallery-content {
-  width: 100%;
-  
-  background-color: #222;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Arrange children in a column (vertical) */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text horizontally */
 }
+
+.gallery-content p {
+  font-family: "Brawler", serif;
+  margin: 0; /* Remove default margin */
+  margin-bottom: 1rem;
+  padding: 0.5em; /* Optional: Adjust padding for spacing */
+}
+
+.gallery-content img {
+  max-width: 100%; /* Ensure image is responsive */
+  width: 80%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+
